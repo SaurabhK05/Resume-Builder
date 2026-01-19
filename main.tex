@@ -27,6 +27,7 @@
 \usepackage{graphicx}
 \usepackage{silence}
 \WarningFilter{nfssext-cfr}{Overwriting kernel definition}
+\WarningFilter{nfssext-cfr}{Overwriting the format's definition}
 \usepackage{cfr-lm}
 \usepackage[T1]{fontenc}
 \setlength{\multicolsep}{0pt} 
@@ -72,7 +73,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}\normalfont\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
@@ -259,7 +260,7 @@
 % \vspace{-2mm}
 
 \resumeProject
-{\href{https://github.com/SaurabhK05/Daily-news-app}{\underline{Daily News}}} %Project Name
+{\href{https://github.com/SaurabhK05/Daily-news-app}{\underline{Daily News Application}}} %Project Name
 {Built a new app for daily weather updates, providing users with daily weather forecasts conveniently.} %Project Name, Location Name
 {} %Event Dates
 {}
