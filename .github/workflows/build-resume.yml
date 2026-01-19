@@ -24,4 +24,5 @@ jobs:
       - name: Copy PDF to docs
         run: |
           mkdir -p docs
-          cp resume.pdf docs/main.pdf
+          cp main.pdf docs/main.pdf
+          touch docs/.nojekyll
