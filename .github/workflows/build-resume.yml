@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: write # 👈 THIS FIXES THE 403 ERROR
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,14 +22,14 @@ jobs:
         with:
           root_file: main.tex
 
-      # 3️⃣ Prepare docs folder (for Pages)
+      # 3️⃣ Prepare docs folder
       - name: Prepare docs
         run: |
           mkdir -p docs
           cp main.pdf docs/
           touch docs/.nojekyll
 
-      # 4️⃣ Deploy docs/ to GitHub Pages
+      # 4️⃣ Deploy to GitHub Pages (creates gh-pages branch)
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
