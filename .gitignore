@@ -8,4 +8,8 @@ main.toc
 *.nav
 *.snm
 *.vrb 
+
+# Ignore generated PDFs
 main.pdf
+docs/main.pdf
+*.pdf

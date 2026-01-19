@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # 👈 THIS FIXES THE 403 ERROR
+  contents: write # to allow deployment to gh-pages
 
 jobs:
   build:
