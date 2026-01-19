@@ -1,4 +1,4 @@
-name: Build Resume PDF
+name: Build & Deploy Resume PDF
 
 on:
   push:
@@ -10,16 +10,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Build PDF from LaTeX
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: resume.tex
+          root_file: main.tex
 
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: resume-pdf
-          path: resume.pdf
+      # 3️⃣ Prepare GitHub Pages folder
+      - name: Copy PDF to docs
+        run: |
+          mkdir -p docs
+          cp resume.pdf docs/main.pdf
