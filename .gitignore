@@ -1,6 +1,11 @@
 main.aux
-main.fdb_latexmk
-main.fls
 main.log
-main.out
-main.synctex.gz
+main.out  
+main.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb 
+main.pdf

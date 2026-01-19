@@ -25,6 +25,8 @@
 \usepackage{fontawesome5}
 \usepackage{multicol}
 \usepackage{graphicx}
+\usepackage{silence}
+\WarningFilter{nfssext-cfr}{Overwriting kernel definition}
 \usepackage{cfr-lm}
 \usepackage[T1]{fontenc}
 \setlength{\multicolsep}{0pt} 
@@ -153,79 +155,79 @@
 % \end{tabularx}
 % }
 \begin{multicols}{2}
-    \raggedright
-    \noindent\textbf{\Huge Saurabh Kumar} \\
-    \vspace{2mm}
-    % \vfill 
-      Seasoned Frontend Developer with a robust
-background spanning over 2+ years in the industry.\\
-    % \columnbreak
-    \raggedleft
-    \begin{tabular}{@{}rr@{}}
+  \raggedright
+  \noindent\textbf{\Huge Saurabh Kumar} \\
+  \vspace{2mm}
+  % \vfill 
+  Seasoned Frontend Developer with a robust
+  background spanning over 2+ years in the industry.\\
+  % \columnbreak
+  \raggedleft
+  \begin{tabular}{@{}rr@{}}
     % \usepackage{\faMapMarker}
     % & {\raisebox{0.0\height}{\footnotesize \faMapMarker}\ Noida, India} \\
-    & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone} \\
-    & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \\
-    & \href{https://github.com/SaurabhK05}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\githuba}} \\
-    & \href{https://www.linkedin.com/in/skumar05/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {\linkedina}}
-    \end{tabular}
+     & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone}                                                  \\
+     & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}}                           \\
+     & \href{https://github.com/SaurabhK05}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\githuba}}             \\
+     & \href{https://www.linkedin.com/in/skumar05/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {\linkedina}}
+  \end{tabular}
 \end{multicols}
 
 %-----------EXPERIENCE-----------------
 \section{\textbf{Work Experience}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {MAQ Software}{Noida, India}
-      {\textbf{Software Engineer(Churn Analysis)}}{Dec 2021 - Present}
-      \vspace{-2.0mm}
-      \resumeItemListStart
-       \item {
-        Initiated and directed the '\textbf{Churn Analysis}' project, addressing business challenges related to churn. In testing phase, demonstrating a \textbf{90\%\ accuracy} in predicting business churn—a valuable asset for clients.}
-      \item {
-       Collaborated with design team to precisely convert Figma designs into visually captivating and user-friendly frontend code, resulting in a 20\%\ increase in user satisfaction and a 30\%\ reduction in user error rates.}
-      \item {
-       Incorporated \textbf{React.js, Redux, Material UI} and a charting library to craft an intelligent and engaging frontend. Elevated user experience and data visualization, resulting in a \textbf{25\%\ improvement in user engagement}.}
-      \item {
-       Implemented RESTful APIs in Flask for seamless frontend integration, \textbf{incorporating OpenAI API} to devise strategies for minimizing churn and identifying reasons for elevated business churn. Engineered API caching, optimized computations with useMemo and useCallback, achieving a \textbf{15\%\ reduction in page load time}.
-     }
-    
-    \resumeItemListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{MAQ Software}{Noida, India}
+{\textbf{Software Engineer(Churn Analysis)}}{Dec 2021 - Present}
+\vspace{-2.0mm}
+\resumeItemListStart
+\item {
+            Initiated and directed the '\textbf{Churn Analysis}' project, addressing business challenges related to churn. In testing phase, demonstrating a \textbf{90\%\ accuracy} in predicting business churn—a valuable asset for clients.}
+\item {
+            Collaborated with design team to precisely convert Figma designs into visually captivating and user-friendly frontend code, resulting in a 20\%\ increase in user satisfaction and a 30\%\ reduction in user error rates.}
+\item {
+            Incorporated \textbf{React.js, Redux, Material UI} and a charting library to craft an intelligent and engaging frontend. Elevated user experience and data visualization, resulting in a \textbf{25\%\ improvement in user engagement}.}
+\item {
+            Implemented RESTful APIs in Flask for seamless frontend integration, \textbf{incorporating OpenAI API} to devise strategies for minimizing churn and identifying reasons for elevated business churn. Engineered API caching, optimized computations with useMemo and useCallback, achieving a \textbf{15\%\ reduction in page load time}.
+      }
 
-    \vspace{-8.0mm}
-    
-    \resumeSubheading{}{}
-      {\textbf{Software Engineer(Examin library)}}{}
-      \vspace{-2.0mm}
-      \resumeItemListStart
-       \item {
-        Reverse-engineered and debug an existing React.js extension to comprehend the workflow, subsequently modifying it for compatibility with different UI frameworks—Fluent UI, Material UI, and Bootstrap UI. This adaptation successfully covered 70\%\ of a client project, enabling the generation of comprehensive unit and rendered test cases.}
-      \item {
-        Examin extension autonomously generated over 450 rendered test cases for React solutions, significantly enhancing the testing coverage and ensuring robust code quality.
-      } 
+\resumeItemListEnd
 
-    \resumeItemListEnd
+\vspace{-8.0mm}
 
-    % \vspace{-3.0mm}
-      \vspace{-8.0mm}
-    
-    \resumeSubheading{}{}
-      {\textbf{Associate Software Engineer}}{}
-      \vspace{-2.0mm}
-      \resumeItemListStart
-    \item {
-      Led accessibility initiatives in the development team, ensuring each element met rigorous accessibility (a11y) standards by incorporating \textbf{semantic HTML tags and JavaScript library} in code. \textbf{Conducted thorough testing} to ensure compatibility across popular browsers (Chrome, Mozilla Firefox, Safari). }
-    \item {     
-     Executed a feature ticket by seamlessly replacing a deprecated tagging component with a new one, ensuring uninterrupted functionality and preserving \textbf{consistent performance} and \textbf{user experience}.}
-    \item {
-     Conducted thorough testing on build size, comparing measurements before and after the removal of deprecated components using \textbf{Webpack}. This initiative contributed to \textbf{optimizing the application's performance} and overall efficiency.}
-    \item {
-     \textbf{Implemented a thorough testing strategy} using \textbf{React.js and QUnit}, with diverse test cases for existing features and new components developed by me, achieving \textbf{90\%+\ code coverage}. Encompassing \textbf{unit, integration, and application (end-to-end) tests}, this approach ensured a robust and reliable codebase, significantly enhancing the \textbf{overall quality and stability} of the application.}
+\resumeSubheading{}{}
+{\textbf{Software Engineer(Examin library)}}{}
+\vspace{-2.0mm}
+\resumeItemListStart
+\item {
+            Reverse-engineered and debug an existing React.js extension to comprehend the workflow, subsequently modifying it for compatibility with different UI frameworks—Fluent UI, Material UI, and Bootstrap UI. This adaptation successfully covered 70\%\ of a client project, enabling the generation of comprehensive unit and rendered test cases.}
+\item {
+            Examin extension autonomously generated over 450 rendered test cases for React solutions, significantly enhancing the testing coverage and ensuring robust code quality.
+      }
 
-    \resumeItemListEnd
-    
-    \vspace{-3.0mm}
-      
-  \resumeSubHeadingListEnd
+\resumeItemListEnd
+
+% \vspace{-3.0mm}
+\vspace{-8.0mm}
+
+\resumeSubheading{}{}
+{\textbf{Associate Software Engineer}}{}
+\vspace{-2.0mm}
+\resumeItemListStart
+\item {
+            Led accessibility initiatives in the development team, ensuring each element met rigorous accessibility (a11y) standards by incorporating \textbf{semantic HTML tags and JavaScript library} in code. \textbf{Conducted thorough testing} to ensure compatibility across popular browsers (Chrome, Mozilla Firefox, Safari). }
+\item {
+            Executed a feature ticket by seamlessly replacing a deprecated tagging component with a new one, ensuring uninterrupted functionality and preserving \textbf{consistent performance} and \textbf{user experience}.}
+\item {
+            Conducted thorough testing on build size, comparing measurements before and after the removal of deprecated components using \textbf{Webpack}. This initiative contributed to \textbf{optimizing the application's performance} and overall efficiency.}
+\item {
+            \textbf{Implemented a thorough testing strategy} using \textbf{React.js and QUnit}, with diverse test cases for existing features and new components developed by me, achieving \textbf{90\%+\ code coverage}. Encompassing \textbf{unit, integration, and application (end-to-end) tests}, this approach ensured a robust and reliable codebase, significantly enhancing the \textbf{overall quality and stability} of the application.}
+
+\resumeItemListEnd
+
+\vspace{-3.0mm}
+
+\resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
 
@@ -233,42 +235,42 @@ background spanning over 2+ years in the industry.\\
 %-----------PROJECTS-----------------
 \section{\textbf{Personal Projects}}
 \resumeSubHeadingListStart
-    \resumeProject
-      {\href{https://github.com/pesto-students/team1-manish-team1-manish}{\underline{Car Bazaar}}} %Project Name
-      {Carbazaar: List and sell cars; buyers browse, make purchases. Vehicle marketplace.} %Project Name, Location Name
-      {} %Event Dates
+\resumeProject
+{\href{https://github.com/pesto-students/team1-manish-team1-manish}{\underline{Car Bazaar}}} %Project Name
+{Carbazaar: List and sell cars; buyers browse, make purchases. Vehicle marketplace.} %Project Name, Location Name
+{} %Event Dates
 {}
-      \resumeItemListStart
-        \item {Designed and developed a \textbf{car listing} website with \textbf{seamless online} vehicle purchase capabilities for registered users.}
-        \item {Utilized \textbf{React.js} and \textbf{Redux} for a user-friendly and engaging experience on UI, used \textbf{Material UI} to develop Component.}
-        \item {Established a secure backend employing \textbf{Node.js}, \textbf{Express.js}, and \textbf{PostgreSQL} for data management. Integrated \textbf{Passport.js} for user authentication (Google, login password), along with \textbf{Razor Pay's} test mode payment gateway.}
-    \resumeItemListEnd
-    \vspace{-2mm}
-    
-    % \resumeProject
-    %   {\href{https://github.com/pesto-students/school-zila-frontend-team-monu}{\underline{School Management System}}} %Project Name
-    %   {A react based web application which allow users to login to website and register student/teacher. } %Project Name, Location Name
-    %   {} %Event Dates
+\resumeItemListStart
+\item {Designed and developed a \textbf{car listing} website with \textbf{seamless online} vehicle purchase capabilities for registered users.}
+\item {Utilized \textbf{React.js} and \textbf{Redux} for a user-friendly and engaging experience on UI, used \textbf{Material UI} to develop Component.}
+\item {Established a secure backend employing \textbf{Node.js}, \textbf{Express.js}, and \textbf{PostgreSQL} for data management. Integrated \textbf{Passport.js} for user authentication (Google, login password), along with \textbf{Razor Pay's} test mode payment gateway.}
+\resumeItemListEnd
+\vspace{-2mm}
 
-    %   \resumeItemListStart
-    %     \item {Develop a school management system, in which user can login and register itself as teacher or student.}
-    %     \item {For client side, have used ReactJS, Redux for state management and Material UI to develop responsive and elegant UI.}
-    % \resumeItemListEnd
-    % \vspace{-2mm}
+% \resumeProject
+%   {\href{https://github.com/pesto-students/school-zila-frontend-team-monu}{\underline{School Management System}}} %Project Name
+%   {A react based web application which allow users to login to website and register student/teacher. } %Project Name, Location Name
+%   {} %Event Dates
 
-    \resumeProject
-      {\href{https://github.com/SaurabhK05/Daily-news-app}{\underline{Daily News Application}}} %Project Name
-      {Built a new app for daily weather updates, providing users with daily weather forecasts conveniently.} %Project Name, Location Name
-      {} %Event Dates
+%   \resumeItemListStart
+%     \item {Develop a school management system, in which user can login and register itself as teacher or student.}
+%     \item {For client side, have used ReactJS, Redux for state management and Material UI to develop responsive and elegant UI.}
+% \resumeItemListEnd
+% \vspace{-2mm}
+
+\resumeProject
+{\href{https://github.com/SaurabhK05/Daily-news-app}{\underline{Daily News}}} %Project Name
+{Built a new app for daily weather updates, providing users with daily weather forecasts conveniently.} %Project Name, Location Name
+{} %Event Dates
 {}
-      \resumeItemListStart
-        \item {Leveraged \textbf{React.js}, \textbf{React Hooks}, and \textbf{Redux Toolkit} for efficient \textbf{global state management} in developing the application.}
-        % \item {Have used a open source API to get news information and rendered it on UI.
-        \item {Utilised an \textbf{open-source API (newsapi.org)} to fetch news and seamlessly integrated it into the user interface.}
+\resumeItemListStart
+\item {Leveraged \textbf{React.js}, \textbf{React Hooks}, and \textbf{Redux Toolkit} for efficient \textbf{global state management} in developing the application.}
+% \item {Have used a open source API to get news information and rendered it on UI.
+\item {Utilised an \textbf{open-source API (newsapi.org)} to fetch news and seamlessly integrated it into the user interface.}
 
-    \resumeItemListEnd
-      
-  \resumeSubHeadingListEnd
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
 \vspace{-8.5mm}
 
 
@@ -283,7 +285,7 @@ background spanning over 2+ years in the industry.\\
 %      \textbf{Web Dev Tools}{: Nodejs, VScode, Git, Github } \\ 
 %      \textbf{Frameworks}{: ReactJs, Express.js } \\
 %      \textbf{Cloud/Databases}{:MongoDb, Relational Database(mySql) } \\  
-     
+
 %      \textbf{Relevant Coursework}{: Data Structures \& Algorithms, Operating Systems, Object Oriented Programming, Database Management System, Software Engineering. } \\ 
 %      \textbf{Areas of Interest}{: Web Design and Development, Block-chain} \\
 %      \textbf{Soft Skills}{: Problem Solving, Self-learning, Presentation, Adaptability, Team leader, Visionary, Innovator, Risk-taker} \\
@@ -294,22 +296,22 @@ background spanning over 2+ years in the industry.\\
 
 
 %-----------PROGRAMMING SKILLS-----------
- \section{\textbf{Skills}}
-    % \begin{adjustwidth}{0.15in}{}
-    \noindent
-    \begin{tabularx}{\textwidth}{@{}X X X X X@{}}
-         \textbf{HTML} & \textbf{CSS} & \textbf{JavaScript} & \textbf{React.js} & \textbf{Redux} \\
-         \textbf{Next.js} & \textbf{Node.js} & \textbf{Express.js} & 
-         \textbf{React Native} & \textbf{TailwindCSS} \\
-         \textbf{PostgreSQL} & \textbf{Git} & \textbf{GitHub} & \textbf{Postman} & \textbf{VSCode} \\
-         \textbf{Jira} & \textbf{Azure} & \textbf{Self learner} & \textbf{Obstacle Conqueror} & \textbf{Visionary} \\
-         % \textbf{Innovator} & \textbf{Team Leader} & \textbf{Risk taker} & \textbf{Communication} & \textbf{Adaptability} \\
-    \end{tabularx}
-    % \end{adjustwidth}
+\section{\textbf{Skills}}
+% \begin{adjustwidth}{0.15in}{}
+\noindent
+\begin{tabularx}{\textwidth}{@{}X X X X X@{}}
+  \textbf{HTML}         & \textbf{CSS}         & \textbf{JavaScript}   & \textbf{React.js}           & \textbf{Redux}     \\
+  \textbf{Next.js}      & \textbf{Node.js}     & \textbf{Express.js}   &
+  \textbf{React Native} & \textbf{TailwindCSS}                                                                            \\
+  \textbf{PostgreSQL}   & \textbf{Git}         & \textbf{GitHub}       & \textbf{Postman}            & \textbf{VSCode}    \\
+  \textbf{Jira}         & \textbf{Azure}       & \textbf{Self learner} & \textbf{Obstacle Conqueror} & \textbf{Visionary} \\
+  % \textbf{Innovator} & \textbf{Team Leader} & \textbf{Risk taker} & \textbf{Communication} & \textbf{Adaptability} \\
+\end{tabularx}
+% \end{adjustwidth}
 % \vspace{-4.0mm}
-    
 
- %-----------EDUCATION-----------
+
+%-----------EDUCATION-----------
 % \section{\textbf{Education}}
 %   \resumeSubHeadingListStart
 %     \resumeSubheading
@@ -319,14 +321,14 @@ background spanning over 2+ years in the industry.\\
 % \vspace{-5.5mm}
 %
 
- %-----------EDUCATION-----------
+%-----------EDUCATION-----------
 \section{\textbf{Education}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Lovely Professional University}{Jalandhar, Punjab}
-      {Bachelor of Technology in Computer Science and Engineering}{August 2018 -- June 2022}
-      % \score\textbf{\textit{{CGPA: 7.19}}}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Lovely Professional University}{Jalandhar, Punjab}
+{Bachelor of Technology in Computer Science and Engineering}{August 2018 -- June 2022}
+% \score\textbf{\textit{{CGPA: 7.19}}}
+\resumeSubHeadingListEnd
 
 
 %-----------Positions of Responsibility-----------------
@@ -354,7 +356,7 @@ background spanning over 2+ years in the industry.\\
 % \resumePOR{Achievement } % Award
 %     {description} % Event
 %     {Event dates} %Event Year
-    
+
 % \resumePOR{Achievement } % Award
 %     {description} % Event
 %     {Event dates} %Event Year
