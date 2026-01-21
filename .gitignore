@@ -1,5 +1,5 @@
-main.aux
-main.log
+*.aux
+*.log
 main.out  
 main.toc
 *.synctex.gz
