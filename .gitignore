@@ -1,7 +1,7 @@
 *.aux
 *.log
-main.out  
-main.toc
+*.out  
+*.toc
 *.synctex.gz
 *.fls
 *.fdb_latexmk
